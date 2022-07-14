@@ -1,0 +1,15 @@
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+  }
+font{
+   font-size: 50px;
+  }
+#button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+}

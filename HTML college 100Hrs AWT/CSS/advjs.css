@@ -1,0 +1,20 @@
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition-duration: .5s;
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition-duration: .5s;
+}
+
+#div4{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition: ease-in-out; 
+    transition-duration: .5s;
+}
