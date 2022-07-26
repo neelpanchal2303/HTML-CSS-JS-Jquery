@@ -1,0 +1,150 @@
+.menubar{
+	width: 100%;
+	margin-top: 10px;
+	float: right;
+	
+
+}
+
+.main{
+	display: flex;
+}
+
+
+   
+ 
+ 
+ 
+ 
+ ul {
+  		text-transform:uppercase;
+  		text-align: left;
+  		display: inline;
+  		margin: 0;
+  		padding: 15px 4px 17px 0;
+  		list-style: none;
+  		
+  		box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	}
+	ul li {
+  		font: bold 12px/18px sans-serif;
+  		display: inline-block;
+  		margin-right: -5px;
+  		position: relative;
+  		padding: 15px 20px;
+  		background: #f7f7f7;
+  		color:#f3a006;
+  		cursor: pointer;
+  		
+  		transition: all 0.2s;
+  	}
+	ul li:hover {
+  		background: #636262;
+  		color: #f7f7f7;
+	}
+
+	
+
+	li ul{
+		display: none;
+		background-color: #f7f7f7;
+		position: absolute;
+		margin-top: 15px;
+		margin-left: -20px;
+		padding:0px 0px 0px 0px;
+		
+	}
+	
+	li ul a li{
+		width:8em;
+		border-bottom: 1px solid #e7e7e7;
+	}
+	
+	li:hover ul{
+		display: block;
+	}
+	li ul a li:hover{
+		width:8em;
+	}
+	
+
+	li ul li ul li
+	{
+		display:none;
+		margin-left: 0px;
+		position:relative;
+	}
+	li ul li:hover ul li{
+		display:block;			
+	}
+
+	ul ul ul {
+  	left: 100%;
+  	top: 0;
+	margin-left: 0px;
+	}
+
+
+	
+
+	.Header{
+		height: 150px;
+		width: 98%;
+		background-color:#636262;
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+
+
+	.introtextarea{
+		height: 150px;
+		width: 98%;
+		background-color:#636262;
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-right: 20px;
+
+	}
+
+	
+	.sidebar{
+		flex: 1;
+		height: 400px;
+		width: 35%;
+		background-color: #636262;
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.body{
+		flex: 1;
+		height: 400px;
+		width: 62%;
+		background-color: #636262;
+		margin-top: 20px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.footer{
+		height: 150px;
+		width: 98.1%;
+		margin: 20px;
+		
+		background-color: #636262;
+	}
+
+	.image{
+		height: 100px;
+		width: 400px;
+		background-color: #636262;
+	}
+
+	
+		
+	
+
+
+	

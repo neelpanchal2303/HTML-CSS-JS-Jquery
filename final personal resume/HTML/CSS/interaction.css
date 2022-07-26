@@ -1,0 +1,134 @@
+#MyDiv,#MyHomeDiv,#MyHorizontalDiv,#MyVerticalDiv,#MyDivDisable,#MyThreeSecondsDelayDiv
+{
+     width:200px; 
+     height:200px; 
+     padding:10px; 
+     background:rgb(164, 138, 235);
+     color:#ffffff;
+     font-size:large;
+     font-weight:bold
+}
+#MyFiftyPixelDiv
+{
+     width:800px; 
+     height:200px; 
+     padding:10px; 
+     background:rgb(164, 138, 235);
+     color:#ffffff;
+     font-size:large;
+     font-weight:bold
+}
+#MyHomeDiv,#MyHorizontalDiv,#MyVerticalDiv,#MyFiftyPixelDiv,#MyThreeSecondsDelayDiv
+{
+    border:solid 3px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-widget-header {
+    background:rgb(139, 139, 139);
+    border: 1px solid Gray;
+    color: #000000;
+    font-weight: bold;
+ }
+ .ui-widget-content {
+    background: rgb(0, 0, 0);
+    border: 1px solid #DDDDDD;
+    color: #ffffff;
+ }
+ .MyCls{background-color:#0000FF;color:#FFFFFF}
+ #Students { 
+    width: 200px; 
+    height: 200px; 
+    padding: 10px; 
+    margin: 0px 5px 10px 0; 
+ }
+ 
+ #Sky{ 
+    width: 250px;
+    height: 250px;
+    padding: 10px; 
+    margin: 10px;  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .ui-widget-header12 {
+    background:rgb(0, 0, 0);
+    border: 1px solid Gray;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+ .ui-widget-content12 {
+    background: rgb(0, 0, 0);
+    border: 1px solid #DDDDDD;
+    color: #ffffff;
+ }
+ #MyDiv12
+ { 
+     width: 150px; 
+     height: 150px; 
+     padding: 10px;
+     text-align: center; 
+     margin: 0px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sortable-10, #sortable-11 { list-style-type: none; 
+    margin: 0; padding: 0; width: 30%; }
+ #sortable-10 li, #sortable-11 li { margin:10px; 
+    padding:20px;
+    font-size: 17px; height: 16px; }
+ .default {
+    background: #81f3b4;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+ }
+ 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Gallery</title>
+    <script src="JS/gallery.js"></script>
+    <link rel="stylesheet" href="CSS/gallery.css">
+</head>
+<body>
+
+  
+    <div class="row">
+      <div class="column">
+        <img src="images/2.jpg"  style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/3.jpg"  style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/4.jpg"  style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/5.jpg"  style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    <div class="container">
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+
+
+
+
+    <div class="text">
+        <font id="text">HELLO</font><br>
+        <input type="button" id="button" value="Change Text" onclick="change()">
+    </div>
+    </body>
+</html>
